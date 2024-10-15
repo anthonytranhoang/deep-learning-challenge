@@ -10,10 +10,15 @@ With a csv containing more than 34,000 organizations received from Alphabet Soup
 ## Results
 The model was trained on 10+ epochs and achieved the following performance metrics on the test set:
 Because of low GBS, I could not do a lot of epochs and did 3 more tests which failed. 
+
 epochs=10
+
 hidden_nodes_layer1 = 5
+
 hidden_nodes_layer2 = 5
+
 Loss: 0.5424
+
 Accuracy: 68.30%
 
 These results indicate that the model can accurately predict charitable donations at a moderately high rate.
